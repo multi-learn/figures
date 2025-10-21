@@ -63,4 +63,5 @@
 
 ### FIGURES
 
-- [Cube 3D interactif](https://multi-learn.github.io/figures/figure3_ske6.html))
+- [Cube 3D interactif skeleton 6](https://multi-learn.github.io/figures/figure3_ske6.html))
+- [Cube 3D interactif skeleton 12](https://multi-learn.github.io/figures/figure3_ske12.html))
