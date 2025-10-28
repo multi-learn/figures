@@ -98,6 +98,21 @@ modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons"]
 
 ### FIGURES
 
+#### Avec variation d'opacite sur les squelettes 3d en fonction de l' intensite correspondante
+
+- [Cube 3D interactif skeleton 6](https://multi-learn.github.io/figures/figure4bis_ske6.html))
+- [Cube 3D interactif skeleton 7](https://multi-learn.github.io/figures/figure4bis_ske7.html))
+- [Cube 3D interactif skeleton 12](https://multi-learn.github.io/figures/figure4bis_ske12.html))
+
+#### Avec reafectation des doublons en xy en label sur le nuage le plus petit  + opacity varition
+enleve la supreposition des squelettes e par label en 2d mais c'est tres arbitraire
+
+- [Cube 3D interactif skeleton 6](https://multi-learn.github.io/figures/figure4ter_ske6.html))
+- [Cube 3D interactif skeleton 7](https://multi-learn.github.io/figures/figure4ter_ske7.html))
+- [Cube 3D interactif skeleton 12](https://multi-learn.github.io/figures/figure4ter_ske12.html)) 
+
+#### formule initiale
+
 - [Cube 3D interactif skeleton 6](https://multi-learn.github.io/figures/figure4_ske6.html))
 - [Cube 3D interactif skeleton 7](https://multi-learn.github.io/figures/figure4_ske7.html))
 - [Cube 3D interactif skeleton 12](https://multi-learn.github.io/figures/figure4_ske12.html))
