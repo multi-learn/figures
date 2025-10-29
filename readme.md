@@ -100,7 +100,7 @@ modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons"]
 
 #### Avec variation d'opacite sur les squelettes 3d en fonction de l' intensite correspondante
 
-- [Cube 3D interactif skeleton 6](https://multi-learn.github.io/figures/figure4bis_ske6.html))
+- [Cube 3D 4 with opacity and grid interactif skeleton 6](https://multi-learn.github.io/figures/figure4bis_ske6.html))
 - [Cube 3D interactif skeleton 7](https://multi-learn.github.io/figures/figure4bis_ske7.html))
 - [Cube 3D interactif skeleton 12](https://multi-learn.github.io/figures/figure4bis_ske12.html))
 
