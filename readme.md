@@ -1,5 +1,43 @@
 # FIGURES 3D POUR VISU
 
+## Clustering ClusteringAgglomerative, distance DistanceSpeed
+
+with mask 2d obtained with Unet 2d segmentation with threshold of 0.5 for binarization
+
+### Fichier de configuration (config_clustering8.yaml)
+
+```yaml
+threshold: 2.1
+speed_threshold: 15.0
+min_len_souspic: 4
+data3D_path: "../../../BIGSF_DATA/Clustering_COHRS/COHRS_10p50_0p00_CUBE_3T2_R2.fit"
+data3D_reprojected_path : "../../../BIGSF_DATA/Clustering_COHRS/COHRS_reprojected_Unet_fromCut.fits"
+mask_toreproject_data_path: "../../../BIGSF_DATA/Clustering_COHRS/Cut.fits"
+clustered_data_folder: "../../../BIGSF_DATA/Clustering_COHRS/data_test8"
+skeleton_tool: 
+  type : SkeletonFilFinder
+distance: 
+  type : DistanceSpeed
+  #speed_threshold: 15.0
+  #coefficient_speed : 1.0
+clustering_method: 
+  type : ClusteringAgglomerative
+  #xi : 0.5
+  #eps : 1.0
+  #min_samples : 7
+  distance_threshold: 15.0
+denoising_method: 
+  type : NoDenoising
+modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons"]
+```
+
+---
+
+### FIGURES
+#### Avec variation d'opacite sur les squelettes 3d en fonction de l' intensite correspondante
+
+- [Cube 3D 4 with opacity and grid interactif skeleton 0](https://multi-learn.github.io/figures/figure7bis_ske0.html))
+
 ## Clustering ClusteringDBSCAN, distance DistanceEuclieanEx
 
 ### Fichier de configuration (config_clustering2.yaml)
