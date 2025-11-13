@@ -36,6 +36,10 @@ modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons"]
 ### FIGURES
 #### Avec variation d'opacite sur les squelettes 3d en fonction de l' intensite correspondante
 
+ ![Mask 2d Unet skeleton 0](Unet2dmask.png)
+ 
+- [maskd 2 figure8_ske0  ](https://multi-learn.github.io/figures/d2figure8_ske0.html)
+- 
 - [Cube 3D 4 with opacity and grid interactif skeleton 0](https://multi-learn.github.io/figures/figure7bis_ske0.html))
 
 ## Clustering ClusteringDBSCAN, distance DistanceEuclieanEx
