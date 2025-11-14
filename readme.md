@@ -43,10 +43,14 @@ modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons"]
 
 - [Cube 3D 4 with opacity and grid interactif skeleton 0](https://multi-learn.github.io/figures/figure7bis_ske0.html))
 
-##### CLASSICAL 2D MASK
+##### CLASSICAL 2D MASK  (Obtained with Parameter's Experience 4)
  ![Mask 2d Classical skeleton 6](classical2d.png)
 
- - [maskd 2 figure4_ske6  ](https://multi-learn.github.io/figures/mask3d4_ske6.html)
+ ![Zoom on Mask 2d Classical skeleton 6](mas2dzoomclassiacal.png) 
+
+ - [maskd 2 figure4_ske6  ](https://multi-learn.github.io/figures/d2figure4_ske6.html)
+ - [zoom on maskd 2 figure4_ske6  ](https://multi-learn.github.io/figures/d2zoomfigure4_ske6.html)
+ - [zoom on 3d maskd figure4_ske6  ](https://multi-learn.github.io/figures/mask3d4_ske6.html)
 
 ## Clustering ClusteringDBSCAN, distance DistanceEuclieanEx
 
