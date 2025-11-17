@@ -52,6 +52,16 @@ modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons"]
  - [zoom on maskd 2 figure4_ske6  ](https://multi-learn.github.io/figures/d2zoomfigure4_ske6.html)
  - [zoom on 3d maskd figure4_ske6  ](https://multi-learn.github.io/figures/mask3d4_ske6.html)
 
+##### CLASSICAL 3D Cube plot  (Obtained with Parameter's Experience 4)  
+
+ ![Data Volume 1 plot Classical skeleton 6](volume1ske6.png)
+ ![Data Volume 1 plot bis Classical skeleton 6](volume1ske6-1.png)
+ ![Data Volume 2 plot bis Classical skeleton 6](volume2sk6.png)
+ 
+ - [volule 3d data way 1figure4_ske6  ](https://multi-learn.github.io/figures/figure4volume_ske6.html)
+ - [volume 3d data plot way 2_ske6  ](https://multi-learn.github.io/figures/figure4volume2_ske6.html)
+ - [marker 3d data plot 4_ske6  ](https://multi-learn.github.io/figures/figure4opacyty_ske6.html)
+
 ## Clustering ClusteringDBSCAN, distance DistanceEuclieanEx
 
 ### Fichier de configuration (config_clustering2.yaml)
