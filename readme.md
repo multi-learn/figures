@@ -36,14 +36,14 @@ modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons"]
 ### FIGURES
 #### Avec variation d'opacite sur les squelettes 3d en fonction de l' intensite correspondante
 
-##### Unet 2D MASK
+##### Unet 2D MASK (Obtained with Parameter's Experience 8) 
 
  ![Mask 2d Unet skeleton 0](Unet2dmask.png)
  
 - [maskd 2 figure8_ske0  ](https://multi-learn.github.io/figures/d2figure8_ske0.html)
 
 
-##### Unet 3D Cube plot  (Obtained with Parameter's Experience 4)  
+##### Unet 3D Cube plot  (Obtained with Parameter's Experience 8)  
 
  ![Data Volume 2 plot Unet skeleton 0](exp8unet-Volume2sk0.png)
  ![Data Volume 1 plot  Unet skeleton 0](exp8unet-volume1ske0.png)
