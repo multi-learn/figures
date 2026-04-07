@@ -1,5 +1,44 @@
 # FIGURES 3D POUR VISU
 
+## Pipeline Skeleton main_pipeline_skeletonize.py (config_pipeline_skeleton1.yaml vs config_pipeline_skeleton2.yaml)
+
+with plots :  "2Dall", skeleton_tool:  (SkeletonFilFinderRemoveHoles vs SkeletonFilFinder)
+ 
+```yaml
+threshold: "sigma" # 2.1
+speed_threshold: 15.0
+min_len_souspic: 4
+data3D_path_dir: "../../../BIGSF_DATA/Clustering_COHRS/INPUT_CUBES"
+mask_toreproject_data_path: "../../../BIGSF_DATA/Clustering_COHRS/PE_UNet_ss_mm_3_binarize_segmentation_local_threshold.fits"
+clustered_data_folder: "../../../BIGSF_DATA/Clustering_COHRS/OUTPUTS"
+skeleton_tool: 
+  type : SkeletonFilFinderRemoveHoles
+  area_threshold: 6
+distance: 
+  type : DistanceSpeed
+  #speed_threshold: 15.0
+  #coefficient_speed : 1.0
+clustering_method: 
+  type : ClusteringAgglomerative
+  #xi : 0.5
+  #eps : 1.0
+  #min_samples : 7
+  distance_threshold: 15.0
+denoising_method: 
+  type : NoDenoising
+modes : ["3d_skeletons", "2d_skeletons", "all_3d_skeletons", "all_2d_skeleton"]
+plots : ["mask_cut" , "2Dwithzoom" , "3Dwithzoom", "withSkeleton", "2Dall"]
+pipeline : True
+```
+case COHRS_43p50_0p00_CUBE_3T2_R2
+
+![maskd 2 all without holes zoom](makallzoomn.png)
+![maskd 2 all with holes zoom](makallzoomholes.png)
+
+- [maskd 2 all without holes  ](https://multi-learn.github.io/figures/figure2D_skeall_hole6.html)
+- [maskd 2 all with holes  ](https://multi-learn.github.io/figures/figure2D_skeall.html)
+
+  
 ## Clustering ClusteringAgglomerative, distance DistanceSpeed
 
 with mask 2d obtained with Unet 2d segmentation with threshold of 0.5 for binarization
